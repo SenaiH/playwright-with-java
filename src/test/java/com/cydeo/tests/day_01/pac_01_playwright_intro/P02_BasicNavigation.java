@@ -36,6 +36,7 @@ public class P02_BasicNavigation {
         page.close();
         browser.close();
         playwright.close();
+
     }
 
 }
