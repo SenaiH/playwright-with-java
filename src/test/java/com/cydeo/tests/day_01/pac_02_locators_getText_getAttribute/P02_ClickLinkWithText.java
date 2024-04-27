@@ -20,7 +20,7 @@ public class P02_ClickLinkWithText {
         page.navigate("https://practice.cydeo.com/");
 
         // page.waitForTimeout(3000);
-       // page.setViewportSize(1080,1920);
+      // page.setViewportSize(1080,1920);
 
         page.click("text=Autocomplete");
 

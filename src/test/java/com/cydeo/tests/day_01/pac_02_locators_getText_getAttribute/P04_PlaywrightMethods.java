@@ -36,7 +36,10 @@ public class P04_PlaywrightMethods {
         System.out.println(page.getByRole(AriaRole.ALERT).textContent());
 
         System.out.println(page.getByRole(AriaRole.ALERT).isVisible());
+
         page.waitForTimeout(3000);
+
+
         page.close();
         browser.close();
         playwright.close();
